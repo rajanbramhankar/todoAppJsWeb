@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    
+<div>
+
+<i id="add" style="color: blue;" class="fa-solid fa-circle-plus" onclick="addpop()" ></i>
+<span id="add"> Add Item </span>
+<h1 id="h1"> <span class="task">Tasks</span> <span class="list">List</span></h1>
+<p id="trip">No items in the Todo List </p>
+
+</div>
+
+
+<div id="popup">
+
+
+<p>Add New Task</p>
+
+<input type="text" placeholder="Enter your task" value="" id="card" name="card"><br><br>
+
+<button onclick="addtask()">Add</button>
+<button>Close</button>
+
+</div>
+
+
+<div id="popup2">
+
+
+    <p>Add New Task</p>
+    
+    <input type="text" placeholder="Enter your task" value="" id="card2" name="card"><br><br>
+    
+    <button onclick="addtask2()">Add</button>
+    <button>Close</button>
+    
+    </div>
+
+
+
+
+<div id="parent"></div>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    }
+
+    #add{
+        position: relative;
+        left: 480px;
+        font-size: 25px;
+        top: 80px;
+    }
+
+    
+    
+    #h1{
+        position: relative;
+        right: 480px;
+        font-size: 40px;
+        
+    }
+
+    .list{
+        color: gray;
+    }
+
+    #trip{
+        position: relative;
+        right: 480px;
+        font-size: 25px;
+        color: gray;
+    }
+    
+    
+    
+    
+    #popup{
+    
+    
+    height:200px;
+    width:400px;
+    border: 4px solid blue;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+    position: relative;
+    top: 50px;
+    left: 500px;
+    
+    
+    }
+    
+    #popup2{
+    
+    
+        height:200px;
+        width:400px;
+        border: 4px solid blue;
+        border-radius: 15px;
+        text-align: center;
+        display: none;
+        position: absolute;
+        top: 150px;
+        left: 500px;
+    
+        
+        }
+    
+    
+    #parent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #child{
+    
+    height: 400px;
+    width: 280px;
+    border: 4px solid blue;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    
+    
+    
+    }
+    
+    #plus{
+    
+    
+    color: blue;
+    position: relative;
+    top: 270px;
+    left: 80px;
+    
+    }
+    
+    #delete{
+    
+    
+        color: blue;
+        position: relative;
+        top: 270px;
+        left: 90px;
+        
+        }
